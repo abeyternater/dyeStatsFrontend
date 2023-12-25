@@ -1,15 +1,30 @@
+
 .col-3{
     text-align: center;
 }
 
+.col-6{
+    margin-right: 0;
+    width: 50%;
+}
+
 .row{
     text-align: center;
-    width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 4rem;
 }
+
+.row2{
+    margin-top:4rem;
+}
+
+img{
+    height:75%;
+}
+
 
 .centerImage{
     width: 100%;
@@ -17,8 +32,8 @@
 }
 
 @media screen and (max-width:710px){
-    .centerImage{
-   transform: translateY(50%);
+.centerImage{
+   transform: translateY(20%);
 }
 
 .row{
@@ -30,8 +45,6 @@
 
 }
 .row2{
-    transform: translateY(20rem);
+    transform: translateY(120%);
 }
-
-
 }
